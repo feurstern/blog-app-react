@@ -2,7 +2,7 @@ import React from 'react'
 import {createBrowserRouter,Outlet,RouterProvider,} from "react-router-dom";
 import {Home, Login, Register, Writer, Single } from './page';
 import { Footer, Navbar } from './components';
-
+import "./style.scss";
 
 const Layout=()=>(
   <>
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
 
 const App = () => {
   return(
-     <div className='App'>
+     <div className='app'>
       <div className='container'>
        <RouterProvider router={router} />
       </div>
