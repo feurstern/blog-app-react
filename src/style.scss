@@ -14,17 +14,16 @@
             flex-direction: column ;
             align-items: center;
             justify-content: center;
-            background-image: url("./assets/pics/bg-img.png");
-            background-repeat: no-repeat;
-            background-size: cover;
             height: 100vh;            
         }
         h1{
+            position: relative;
             font-size: 20px;
             color: teal;
             margin-bottom: 20px
         }
         form{
+            position: absolute;
             display: flex;
             flex-direction: column;
             padding:10xpx;
@@ -61,6 +60,7 @@
                     height: 80px;
                     width: 80px;
                     
+                    
                 }
                 .links{
                     display: flex;
@@ -73,7 +73,9 @@
                         font-weight: 300;
                     }
                     span{
-                        cursor: pointer
+                        cursor: pointer;
+                        font-size: 30px;
+                        font-weight: 300;
                     }
 
                 }

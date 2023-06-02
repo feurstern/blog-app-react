@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import bgimg  from '../assets/pics/bg-img.png'
 
 const login = () => {
   return (
     <div className='auth'>
+      <img src={bgimg} />
        <h1>Login</h1>
        <form>
+         
           <input type="text" placeholder='username' />
           <input type='password' placeholder='password' />
           <button>Login</button>

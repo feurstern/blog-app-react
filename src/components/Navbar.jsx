@@ -17,13 +17,14 @@ const Navbar = () => {
             <h6>Science</h6>
           </Link>
           <Link className='link' to='/?cat=technology'>
-            <h6>Technology</h6>
+            <h6>Technology</h6> 
           </Link>
           <Link className='link' to='/?cat=history'>
             <h6>History</h6>
           </Link>
           <span>username</span>
           <span>Logout</span>
+          <span><Link to='/login' /></span>
         </div>
 
       </div>
