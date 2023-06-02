@@ -1,6 +1,14 @@
 
 .app{
+    display: flex;
+    justify-content: center;
      .container{
+        width: 1024px;
+
+        .link{
+            text-decoration: none;
+            color:inherit;
+        }
         .auth{
             display:flex;
             flex-direction: column ;
@@ -44,6 +52,33 @@
                 text-align: center;
             }
         } 
+        .navbar{
+            .container{
+                padding: 10px 0px;
+                display: flex; 
+                justify-content: space-between;
+                .logo{
+                    height: 80px;
+                    width: 80px;
+                    
+                }
+                .links{
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    padding-top: 0px;
+                    
+                    h6{
+                        font-size: 30px;
+                        font-weight: 300;
+                    }
+                    span{
+                        cursor: pointer
+                    }
+
+                }
+            }
+        }
         
 
 

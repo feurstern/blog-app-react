@@ -1,6 +1,6 @@
 import React from 'react'
 import {createBrowserRouter,Outlet,RouterProvider,} from "react-router-dom";
-import {Home, Login, Register, Writer, Single } from './page';
+import {Home, Login, Register, Writer, Single, Notfound } from './page';
 import { Footer, Navbar } from './components';
 import "./style.scss";
 
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
         path :"/post/:any",
         element:<Single />
       },
+      {
+        path:"/notfound",
+        element:<Notfound/>
+      }
 
     ],
   },
@@ -51,7 +55,10 @@ const router = createBrowserRouter([
   {
     path:"/",
     element:<Home/>
-
+  },
+  {
+    path:"notfound",
+    element: <Notfound/>
   }
 ]);
 
