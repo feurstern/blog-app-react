@@ -1,10 +1,12 @@
 import React from 'react'
-
+import logo from '../assets/pics/log-blog.png'
 const Footer = () => {
   return (
-    <div>
-        <h1>Footer</h1>
-    </div>
+    <footer>
+       <img src={logo} alt='logo'/>
+       <span> Made by  Hatsune Miku</span>
+    </footer>
+    
   )
 }
 

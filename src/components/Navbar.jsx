@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='container'>
         <div className='logo'>
-          <img src={logo} height='80px' />
+          <img src={logo} alt='logo gw' height='80px' />
         </div>
         <div className='links'>
           <Link className='link' to='/?cat=language'>
@@ -24,7 +24,11 @@ const Navbar = () => {
           </Link>
           <span>username</span>
           <span>Logout</span>
-          <span><Link to='/login' /></span>
+          <span><Link to='/login' > </Link></span>
+          <span className='write'>
+             <Link className='link' to='/writer'> Write</Link>
+
+          </span>
         </div>
 
       </div>
